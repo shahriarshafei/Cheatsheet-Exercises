@@ -16,3 +16,13 @@
         var done = x+2
         return done;
     };           //To call function simply write doSomething(x);
+
+// Combining Strings and variables (Concatenation)
+    console.log("Hello " + variable + " .");
+
+// Print
+    alert(""); //Put out notification
+    console.log(""); //Print out in the console
+
+// User Input (Similar to scanner in Java)
+    prompt(""); //Prompt user to input something
