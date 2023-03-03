@@ -32,3 +32,13 @@
     variable.slice(x,1);        //Cut down a string, starts from charachter at "x" position and ends but not include at charachter in the "y" position
     variable.toUpperCase();     //Convert every charachter into it's upper case form
     variable.toLowerCase();     //Convert every charachter into it's lower case form
+
+// Arithmetic operators
+    x+y;                        //Addition
+    x-y;                        //Subtraction 
+    x/y;                        //Division
+    x*y;                        //Multiplication
+    x%y;                        //Modulo
+    x++;                        //Increment
+    x--;                        //Decrement
+    x+=y;                       //Short hand for x = x + y;
