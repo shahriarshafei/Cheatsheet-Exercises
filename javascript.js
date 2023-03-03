@@ -42,3 +42,14 @@
     x++;                        //Increment
     x--;                        //Decrement
     x+=y;                       //Short hand for x = x + y;
+
+// Order of priority
+// () > * & / > + & -
+
+// Math methods
+    Math.floor(); //Removes every decimals regardless of their values
+    Math.ceil(); //Round number to the next whole number
+    Math.round(); //Round number to the closest whole number  
+    Math.pow(x,y); //Raises value of "x" to the power of "y"
+    Math.random(); //Generates psuedo random number between 0 and 0.9999999999999999 with 16 decimals
+    variable.toFixed(x); //Declares numbers of decimals placed to "x" amount
