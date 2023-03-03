@@ -26,3 +26,9 @@
 
 // User Input (Similar to scanner in Java)
     prompt(""); //Prompt user to input something
+
+// Other useful methods
+    variable.length;            //Return the length of a String
+    variable.slice(x,1);        //Cut down a string, starts from charachter at "x" position and ends but not include at charachter in the "y" position
+    variable.toUpperCase();     //Convert every charachter into it's upper case form
+    variable.toLowerCase();     //Convert every charachter into it's lower case form
