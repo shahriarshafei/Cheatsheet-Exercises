@@ -67,3 +67,11 @@
     if(variable>x){} //
     else if(variable<y){}
     else{}
+
+// Arrays
+var array = []; //Brackets always associated with arrays, keep empty if you don't know the lenght of your array
+var array = [x]; //Value of the "x" determins the lenght of array
+array[y]; //Returns data stored in the "y" position of the array
+array.includes("z"); //Return a boolean indicating id "z" is in the array or not
+array.push(n) //Adds "n" to the end of the array
+arrays.pop //Removes "m" from the end of the array
