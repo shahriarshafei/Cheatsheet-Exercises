@@ -62,3 +62,8 @@
     x===y // "x" is completely equal to "y", even their data type is the same
     x==y // Only the value of "x" is equal to the value of "y"
     x!==y // "x" is not equal to "y"
+
+// If Statement
+    if(variable>x){} //
+    else if(variable<y){}
+    else{}
