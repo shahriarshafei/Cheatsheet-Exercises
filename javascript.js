@@ -53,3 +53,12 @@
     Math.pow(x,y); //Raises value of "x" to the power of "y"
     Math.random(); //Generates psuedo random number between 0 and 0.9999999999999999 with 16 decimals
     variable.toFixed(x); //Declares numbers of decimals placed to "x" amount
+
+// Comparative operators
+    x&&y // "x" And "y" must be true to proceed
+    x||y // "x" Or "y" either one being true is suffice for the procedure to go through
+    x>y // "x" bigger than "y" OR "y" smaller than "x"
+    x>=y // "x" bigger than or equal to "y" OR "y" smaller than or equal to "x"
+    x===y // "x" is completely equal to "y", even their data type is the same
+    x==y // Only the value of "x" is equal to the value of "y"
+    x!==y // "x" is not equal to "y"
