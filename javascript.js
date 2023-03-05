@@ -75,3 +75,15 @@ array[y]; //Returns data stored in the "y" position of the array
 array.includes("z"); //Return a boolean indicating id "z" is in the array or not
 array.push(n) //Adds "n" to the end of the array
 arrays.pop //Removes "m" from the end of the array
+
+// For loop
+for (var i =0; i<x; i++){ //Starting with i=0 this loop does the function inside curly braces and increment the-
+    console.log(i)        //-value of i by 1 each time the loops is done, until "i" gets bigger than "x"
+}
+
+// While loop
+var i = 0;
+while (i<x){            //While loop is used when you want your program to run while certain-
+    console.log(i);     //-state is true. like if player in the game is alive. for loop is to-
+    i++;                //-run a piece of code certail amount of times
+}
