@@ -31,3 +31,11 @@
     document.innerHTML;
 // Changing ONLY the text inside of an HTML tag.
     document.textContent;
+// Changing CSS rules of a selection
+    document.style;
+// Changing CSS color of a selection
+    document.style.color = "";
+// Changing CSS font size.
+    document.style.fontSize = "";
+// Chaning CSS background color.
+    document.style.backgroundColor = "";
