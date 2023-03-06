@@ -9,13 +9,21 @@
     document.firstElementChild;
 // Select last element child of your document
     document.lastElementChild;
-// Changing the text inside an HTML tag, including text decoratives like <em> & <strong>...
-    document.innerHTML;
-// Changing ONLY the text inside of an HTML tag.
-    document.innerText;
-// Changing CSS rules of a selection
-    document.style;
-// Changing CSS color of a selection
-    document.style.color = "";
-// Returning document length.
-    document.length;
+// Selecting the first item in your document, with the specified element, tag or class mentioned-
+//-inside the parantheses. (Use # for ids & . for classes. you can combine selectors)
+    document.querySelector("");
+// Selecting all the items in your document, with the specified element, tag or class mentioned-
+//-inside the paratheses. (Use # for ids & . for classes. you can combine selectors)
+    document.querySelectorAll("");
+// Selecting an element with "x" position in array of all the similar elements.
+    document.querySelectorAll("")[x];
+// Select all elements by their tag name.
+    document.getElementsByTagName("");
+// Select an element by it's tag name with "x" position in array of all the similar elements.
+    document.getElementsByTagName("")[x];
+// Select all elements by their class.
+    document.getElementsByClassName("");
+// Select an element by their class with "x" position in array of all the similar elements.
+    document.getElementsByClassName("")[x];
+// Select the element by its ID.
+    document.getElementById("");
