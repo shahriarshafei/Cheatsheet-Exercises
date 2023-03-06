@@ -27,3 +27,7 @@
     document.getElementsByClassName("")[x];
 // Select the element by its ID.
     document.getElementById("");
+// Changing the text inside an HTML tag, including text decoratives like <em> & <strong>...
+    document.innerHTML;
+// Changing ONLY the text inside of an HTML tag.
+    document.textContent;
