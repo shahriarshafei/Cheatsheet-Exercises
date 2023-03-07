@@ -43,3 +43,9 @@
     document.length;
 // Outputs classes of an item.
     document.classList;
+// Add class to an HTML item.
+    document.classList.add("");
+// Remove Class of an HTML item.
+    document.classList.remove("");
+// Change the status of an class in an HTML element.
+    document.classList.toggle("");
