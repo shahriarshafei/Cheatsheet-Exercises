@@ -39,3 +39,7 @@
     document.style.fontSize = "";
 // Chaning CSS background color.
     document.style.backgroundColor = "";
+// Returning document length.
+    document.length;
+// Outputs classes of an item.
+    document.classList;
