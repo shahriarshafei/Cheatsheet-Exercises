@@ -49,3 +49,11 @@
     document.classList.remove("");
 // Change the status of an class in an HTML element.
     document.classList.toggle("");
+// Simulates a mouse click on the object.
+    document.querySelector("").click();
+// Returns all the attributes of an HTML element.
+    document.attributes;
+//  Return detail of the attribute inside double quotation.
+    document.getAttribute("");
+// Set the value of an attribute.
+    document.setAttribute("selected attribute", "Value of the attribute");
