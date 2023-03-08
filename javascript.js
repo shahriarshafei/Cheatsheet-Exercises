@@ -92,3 +92,9 @@ while (i<x){            //While loop is used when you want your program to run w
 //-Shift+Enter and then type the function you want to debug
 
 // Higher Order Functions: functions that can take other functions as inputs.
+
+// Callback Function: functions passed in as input inside higher order functions.
+
+// Playig an audio file.
+    var audio = new Audio('audio_file.mp3');
+    audio.play();
