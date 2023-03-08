@@ -98,3 +98,12 @@ while (i<x){            //While loop is used when you want your program to run w
 // Playig an audio file.
     var audio = new Audio('audio_file.mp3');
     audio.play();
+
+// How to create an object and it's properties manually.
+    var houseKeeper1 = {
+        yearsOfExperience: 12,
+        name: "Jane",
+        cleaningRepertoire: ["bathroom", "Lobby", "Bedroom"]
+    }
+// To access each properties dot notation must be used.
+    houseKeeper1.name;
