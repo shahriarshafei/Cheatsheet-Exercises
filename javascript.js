@@ -1,6 +1,6 @@
 // Typing disciplin in Javascript
-    camelCasing = variables;
-    Pascal =
+    camelCasing = variables & functions (methods, objects);
+    Pascal = Constructors;
 
 // How to name variables
     my_name, myName, my123;
@@ -87,3 +87,8 @@ while (i<x){            //While loop is used when you want your program to run w
     console.log(i);     //-state is true. like if player in the game is alive. for loop is to-
     i++;                //-run a piece of code certail amount of times
 }
+
+// Calling debugger in google Chrome: In inspection mode, in console, type "debugger" then hit-
+//-Shift+Enter and then type the function you want to debug
+
+// Higher Order Functions: functions that can take other functions as inputs.
