@@ -118,3 +118,10 @@ while (i<x){            //While loop is used when you want your program to run w
 
 // How to create a new object using constructor function.
     var bellBoy2 = new BellBoy("Chris", 12, true, [English, French]);
+
+// Switch statement.
+    switch (exoression){
+        case expression:
+        break;
+        default:
+    }
