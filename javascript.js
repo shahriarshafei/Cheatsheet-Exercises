@@ -107,3 +107,14 @@ while (i<x){            //While loop is used when you want your program to run w
     }
 // To access each properties dot notation must be used.
     houseKeeper1.name;
+
+// how to create a constructor. (Constructor Function)
+    function BellBoy(name, age, hasWorkPermit, Languages){
+        this.name = name;
+        this.age = age;
+        this.hasWorkPermit = hasWorkPermit;
+        this.Languages = Languages;
+    }
+
+// How to create a new object using constructor function.
+    var bellBoy2 = new BellBoy("Chris", 12, true, [English, French]);
