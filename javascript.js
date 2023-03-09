@@ -125,3 +125,19 @@ while (i<x){            //While loop is used when you want your program to run w
         break;
         default:
     }
+
+// How to create method.
+    var bellBoy1 = {
+        name: "Timmy",
+        age: 19,
+        hasWorkPermit: true,
+        languages: ["French", "English"],
+        moveSuitcase: function(){
+            alert("May I take your suitcase?");
+            pickUpSuitcase();
+            move();
+        }
+    }
+
+// How to call a method.
+    bellBoy1.moveSuitcase();
