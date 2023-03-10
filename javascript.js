@@ -89,7 +89,8 @@ while (i<x){            //While loop is used when you want your program to run w
 }
 
 // Calling debugger in google Chrome: In inspection mode, in console, type "debugger" then hit-
-//-Shift+Enter and then type the function you want to debug
+//-Shift+Enter and then type the function you want to debug.
+//Anything bellow debugger enters the debugging console.
 
 // Higher Order Functions: functions that can take other functions as inputs.
 
@@ -141,3 +142,8 @@ while (i<x){            //While loop is used when you want your program to run w
 
 // How to call a method.
     bellBoy1.moveSuitcase();
+
+// Setting timeout. ("x" is the amount of delay in miliseconds, function is the action that will-
+//-take place after "x" amount has passed and it needs to be enclosed inside curley braces-
+//-after "function()".
+    setTimeout(function(){},x);
