@@ -57,3 +57,12 @@
     document.getAttribute("");
 // Set the value of an attribute.
     document.setAttribute("selected attribute", "Value of the attribute");
+
+// Adding event listener. "x" is the event that is being listened like "click". the second-
+//-phrase is the action that is going to happen. Remember don't include the parentheses after-
+//-the function.
+    document.addEventListener("x",functionname);
+// Or do this instead.
+    document.addEventListener("", function(){
+        doSomething;
+    } )
