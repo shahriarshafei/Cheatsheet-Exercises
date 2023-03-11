@@ -66,3 +66,13 @@
     document.addEventListener("", function(){
         doSomething;
     } )
+
+// To use the identity of the item that has been clicked on for a function use "this".
+    document.addEventListener("click", function(){
+        this.style.color = "white";
+    })
+
+// How to know the specification of the key that has been pressed.
+    document.addEventListener("keydown", function(event){
+        console.log(event)
+    })
