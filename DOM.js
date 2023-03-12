@@ -105,3 +105,19 @@
 // Afformentioned class is being added and then removed after 0.1 seconds
         activeButton.classList.add("pressed");
         setTimeout(function(){activeButton.classList.remove("pressed");}, 100);
+
+// Getter vs Setter: to get a property you just mention it without dedicating a value to it, -
+//-to set a property you mention the property and dedicate a value to it by using ="" in front-
+//-of it.
+
+// Call Method: Is when you use a method of an object using dot notation & the method after it
+
+// Properties vs Methods: Properties describe something about the object, and Methods are  the-
+//-things that the object can do.
+
+// Method vs Function: Method is a function that an object can do, so it hase to be associated-
+//-with an object.
+
+// Dot notation: To manipulate objects a dot "." is used after the object name.
+
+// to identify a method, bear in mind that methods come with "()" in front of them.
