@@ -99,3 +99,9 @@
 // Returning the second most recently selected element or JavaScript object.
     $1
     $1.addEventListener;
+
+// How to implement animation.
+// Suppose there is a css class called ".pressed" that changes style of it's elements.
+// Afformentioned class is being added and then removed after 0.1 seconds
+        activeButton.classList.add("pressed");
+        setTimeout(function(){activeButton.classList.remove("pressed");}, 100);
