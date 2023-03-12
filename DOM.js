@@ -91,3 +91,11 @@
                 callBack(eventThatHappened);
             }
         }
+
+// Returning the most recently selected element or JavaScript object.
+    $0
+    $0.addEventListener;
+
+// Returning the second most recently selected element or JavaScript object.
+    $1
+    $1.addEventListener;
