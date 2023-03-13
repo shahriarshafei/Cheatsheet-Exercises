@@ -12,3 +12,10 @@
 // Outputing the value of a css rule.
     document.querySelectorAll("h1").style.color;
     $("h1").css("color");
+
+// To safeguard loding our jQuery cdn, meaning make sure jQuery library is fully loaded before-
+//-browser renders the rest of the page, do this: (still it's best to move everything to the-
+//-end, just before the closing of </body> element)
+    $(document).ready(function(){
+        $("h1").css("color", "red");
+    })
