@@ -5,3 +5,10 @@
     document.querySelectorAll|("h1");
     jQuery("h1") //OR 
     $("h1")
+
+// Changing CSS rules.
+    document.querySelectorAll("h1").style.color ="red";
+    $("h1").css("color", "red");
+// Outputing the value of a css rule.
+    document.querySelectorAll("h1").style.color;
+    $("h1").css("color");
