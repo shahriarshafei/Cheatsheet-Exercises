@@ -26,3 +26,6 @@
 
 // Adding mutiple classes.
     $("h1").addClass("big-title margin-50");
+
+// Removing class.
+    $("h1").removeClass("big-title");
