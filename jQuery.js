@@ -23,3 +23,6 @@
 // Add class.
     document.querySelectorAll("h1").classList.add("big-title");
     $("h1").addClass("big-title");
+
+// Adding mutiple classes.
+    $("h1").addClass("big-title margin-50");
