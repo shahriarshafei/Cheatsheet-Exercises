@@ -19,3 +19,7 @@
     $(document).ready(function(){
         $("h1").css("color", "red");
     })
+
+// Add class.
+    document.querySelectorAll("h1").classList.add("big-title");
+    $("h1").addClass("big-title");
