@@ -29,3 +29,6 @@
 
 // Removing class.
     $("h1").removeClass("big-title");
+
+// How to check if an element has a specific class.
+    $("h1").hasClass("margin-50");
