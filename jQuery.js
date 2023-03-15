@@ -36,3 +36,10 @@
 // Change text using jQuery.
     $("h1").text("bye"); //Similar to .textContent
     $("h1").html("<em>bye</em>"); //Similar to .innerHTML
+
+// Setting attributes.
+    $("a").attr("href", "www.google.com");
+// Getting the value of an attribute.
+    $("a").attr("href");
+// Class also is an atrribute so you can use this method to get classes names.
+    $("a").attr("class");
