@@ -32,3 +32,7 @@
 
 // How to check if an element has a specific class.
     $("h1").hasClass("margin-50");
+
+// Change text using jQuery.
+    $("h1").text("bye"); //Similar to .textContent
+    $("h1").html("<em>bye</em>"); //Similar to .innerHTML
