@@ -48,3 +48,15 @@
     $("button").click(function(){
         $("h1").css("color", "purple");
     });
+
+// Replacing for loop when adding event listeners.
+    for(var i = 0; i<x; i++){
+        document.querySelectorAll("button")[i].addEventListener("click", function(){
+            document.querySelector("h1").style.color = "purple";
+        })
+    }
+    //is equal to
+    $("button").click(function(){
+        $("h1").css("color", "purple");
+    });
+    // Because jQuery looks for every button element and add event listener to it.
