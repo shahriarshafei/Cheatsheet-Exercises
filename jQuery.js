@@ -60,3 +60,9 @@
         $("h1").css("color", "purple");
     });
     // Because jQuery looks for every button element and add event listener to it.
+
+// More flexible of adding event listener using jQuery.
+        $("h1").on("mouseover", function(){
+            $("h1").css("color", "purple");
+        });
+    // Instead of "mouseover" you can use any event you want, Ex: "click", "keydown", ... 
