@@ -43,3 +43,8 @@
     $("a").attr("href");
 // Class also is an atrribute so you can use this method to get classes names.
     $("a").attr("class");
+
+// Adding evenet listeners using jQuery.
+    $("button").click(function(){
+        $("h1").css("color", "purple");
+    });
