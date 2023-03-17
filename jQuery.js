@@ -72,3 +72,6 @@
     $("h1").after("<button>new button</button>"); //<h1>text</h1><button>new button</button>
     $("h1").prepend("<button>new button</button>"); //<h1><button>new button</button>text</h1>
     $("h1").append("<button>new button</button>"); //<h1>text<button>new button</button></h1>
+
+// Removing elements using jQuery.
+    $("button").remove(); //Removes all the button elements
