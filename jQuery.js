@@ -75,3 +75,6 @@
 
 // Removing elements using jQuery.
     $("button").remove(); //Removes all the button elements
+
+// Hide an element.
+    $("h1").hide();
