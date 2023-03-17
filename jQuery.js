@@ -66,3 +66,9 @@
             $("h1").css("color", "purple");
         });
     // Instead of "mouseover" you can use any event you want, Ex: "click", "keydown", ... 
+
+// Adding elements using jQuery.
+    $("h1").before("<button>new button</button>"); //<button>new button</button><h1>text</h1>
+    $("h1").after("<button>new button</button>"); //<h1>text</h1><button>new button</button>
+    $("h1").prepend("<button>new button</button>"); //<h1><button>new button</button>text</h1>
+    $("h1").append("<button>new button</button>"); //<h1>text<button>new button</button></h1>
