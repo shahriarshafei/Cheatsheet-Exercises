@@ -78,3 +78,6 @@
 
 // Hide an element.
     $("h1").hide();
+
+// Change the status of an element between "show" and "hidden".
+    $("h1").toggle();
