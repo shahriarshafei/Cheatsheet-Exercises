@@ -81,3 +81,11 @@
 
 // Change the status of an element between "show" and "hidden".
     $("h1").toggle();
+
+// Animations in jQuery.
+    $("h1").fadeOut();
+    $("h1").fadeIn();
+    $("h1").fadeToggle();
+    $("h1").slideUP();
+    $("h1").slideDown();
+    $("h1").slideToggle();
