@@ -89,3 +89,6 @@
     $("h1").slideUP();
     $("h1").slideDown();
     $("h1").slideToggle();
+    $("h1").animate({opacity: 0.5}); //Gradually decrease opacity to 0.5 (50%)
+    //Between curley braces you can only use values that are numeric
+    $("h1").slideUp().slideDown().animate({opacity:0.5}); //Chaining animations
