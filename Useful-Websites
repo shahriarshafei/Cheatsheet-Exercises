@@ -58,5 +58,7 @@
     <p>Website for drawing diagrams</p>
     <a href="https://hackertyper.net/">https://hackertyper.net/</a>
     <p>Website for pranking everyone to think you are a hacker!</p>
+    <a href="https://www.npmjs.com">https://www.npmjs.com/</a>
+    <p>A source of external libraries for node</p>
   </body>
 </html>
