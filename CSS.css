@@ -8,3 +8,22 @@
 
 htmlElement {
 }
+
+
+<!-- Collective Selection -->
+
+htmlElement.className{
+  --Selects htmlElement that has className
+}
+
+#idName.className {
+  --Selects idName that has className
+}
+
+htmlElement .className{
+  --Selects className which is the child of htmlElement
+}
+
+htmlElement htmlElement {
+  --Selects htmlElement which is the child of htmlElement
+}
