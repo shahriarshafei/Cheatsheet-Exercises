@@ -27,3 +27,8 @@ htmlElement .className{
 htmlElement htmlElement {
   --Selects htmlElement which is the child of htmlElement
 }
+
+<!-- Useful CSS Rules -->
+
+color: ----;
+font: ---;
