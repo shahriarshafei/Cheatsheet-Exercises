@@ -28,6 +28,14 @@ htmlElement htmlElement {
   --Selects htmlElement which is the child of htmlElement
 }
 
+<!-- Frames -->
+
+margin: x(all 4 sides)
+margin: x(top and bottom) y(left and right)
+margin: x(top) y(bottom) z(left & right)
+margin: x(top) y(left) z(bottom) w(right)
+
+
 <!-- Useful CSS Rules -->
 
 color: ----;
