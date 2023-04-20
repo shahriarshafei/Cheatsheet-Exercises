@@ -40,6 +40,11 @@ padding: x(top and bottom) y(left and right)
 padding: x(top) y(bottom) z(left & right)
 padding: x(top) y(left) z(bottom) w(right)
 
+border: x(all 4 sides)
+border: x(top and bottom) y(left and right)
+border: x(top) y(bottom) z(left & right)
+border: x(top) y(left) z(bottom) w(right)
+
 <!-- Useful CSS Rules -->
 
 color: ----;
