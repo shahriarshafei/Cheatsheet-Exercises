@@ -37,12 +37,16 @@ margin: x(top) y(left) z(bottom) w(right)
 margin-right:
 margin-left:
 margin-top:
-margin-bottom
+margin-bottom:
 
 padding: x(all 4 sides)
 padding: x(top and bottom) y(left and right)
 padding: x(top) y(bottom) z(left & right)
 padding: x(top) y(left) z(bottom) w(right)
+padding-right:
+padding-left:
+padding-top:
+padding-bottom:
 
 border: x(all 4 sides)
 border: x(top and bottom) y(left and right)
