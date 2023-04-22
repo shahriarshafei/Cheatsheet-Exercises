@@ -52,6 +52,10 @@ border: x(all 4 sides)
 border: x(top and bottom) y(left and right)
 border: x(top) y(bottom) z(left & right)
 border: x(top) y(left) z(bottom) w(right)
+border-right:
+border-left:
+border-top:
+border-bottom:
 
 <!-- Useful CSS Rules -->
 
